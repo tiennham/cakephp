@@ -6,16 +6,17 @@ namespace App\Model\Entity;
 use Cake\ORM\Entity;
 
 /**
- * Category Entity
+ * BlogPost Entity
  *
  * @property int $id
  * @property string $name
- * @property \Cake\I18n\FrozenTime|null $created
- * @property \Cake\I18n\FrozenTime|null $modified
+ * @property int $category_id
+ * @property \Cake\I18n\FrozenTime $created
+ * @property \Cake\I18n\FrozenTime $modified
  *
- * @property \App\Model\Entity\BlogPost[] $blog_posts
+ * @property \App\Model\Entity\Category $category
  */
-class Category extends Entity
+class BlogPost extends Entity
 {
     /**
      * Fields that can be mass assigned using newEntity() or patchEntity().
@@ -28,8 +29,9 @@ class Category extends Entity
      */
     protected $_accessible = [
         'name' => true,
+        'category_id' => true,
         'created' => true,
         'modified' => true,
-        'blog_posts' => true,
+        'category' => true,
     ];
 }
