@@ -2,6 +2,8 @@
 declare(strict_types=1);
 
 namespace App\Controller;
+use Cake\View\JsonView;
+use Cake\View\XmlView;
 
 /**
  * BlogPosts Controller
@@ -11,6 +13,10 @@ namespace App\Controller;
  */
 class BlogPostsController extends AppController
 {
+    public function viewClasses(): array
+    {
+        return [JsonView::class];
+    }
     /**
      * Index method
      *
@@ -21,6 +27,8 @@ class BlogPostsController extends AppController
         $blogPosts = $this->paginate($this->BlogPosts);
 
         $this->set(compact('blogPosts'));
+        // Specify which view vars JsonView should serialize.
+//        $this->viewBuilder()->setOption('serialize', 'blogPosts');
     }
 
     /**

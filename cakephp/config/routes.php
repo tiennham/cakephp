@@ -61,6 +61,7 @@ return function (RouteBuilder $routes): void {
          * ...and connect the rest of 'Pages' controller's URLs.
          */
         $builder->connect('/pages/*', 'Pages::display');
+        $builder->setExtensions(['json', 'xml']);
 
         /*
          * Connect catchall routes for all controllers.
