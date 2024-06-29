@@ -18,9 +18,6 @@ class BlogPostsController extends AppController
      */
     public function index()
     {
-        $this->paginate = [
-            'contain' => ['Categories'],
-        ];
         $blogPosts = $this->paginate($this->BlogPosts);
 
         $this->set(compact('blogPosts'));
@@ -36,7 +33,7 @@ class BlogPostsController extends AppController
     public function view($id = null)
     {
         $blogPost = $this->BlogPosts->get($id, [
-            'contain' => ['Categories'],
+            'contain' => ['Categories', 'MetaFields'],
         ]);
 
         $this->set(compact('blogPost'));
@@ -73,7 +70,7 @@ class BlogPostsController extends AppController
     public function edit($id = null)
     {
         $blogPost = $this->BlogPosts->get($id, [
-            'contain' => [],
+            'contain' => ['Categories'],
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $blogPost = $this->BlogPosts->patchEntity($blogPost, $this->request->getData());

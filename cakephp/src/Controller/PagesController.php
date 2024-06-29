@@ -45,6 +45,7 @@ class PagesController extends AppController
      */
     public function display(string ...$path): ?Response
     {
+//        sleep(20);
         if (!$path) {
             return $this->redirect('/');
         }

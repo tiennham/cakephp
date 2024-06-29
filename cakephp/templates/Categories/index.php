@@ -13,6 +13,7 @@
                 <tr>
                     <th><?= $this->Paginator->sort('id') ?></th>
                     <th><?= $this->Paginator->sort('name') ?></th>
+                    <th>Blog Posts</th>
                     <th><?= $this->Paginator->sort('created') ?></th>
                     <th><?= $this->Paginator->sort('modified') ?></th>
                     <th class="actions"><?= __('Actions') ?></th>
@@ -23,6 +24,7 @@
                 <tr>
                     <td><?= $this->Number->format($category->id) ?></td>
                     <td><?= h($category->name) ?></td>
+                    <td><?= h($category->blog_posts) ?></td>
                     <td><?= h($category->created) ?></td>
                     <td><?= h($category->modified) ?></td>
                     <td class="actions">

@@ -12,6 +12,8 @@ use Cake\Validation\Validator;
  * BlogPosts Model
  *
  * @property \App\Model\Table\CategoriesTable&\Cake\ORM\Association\BelongsTo $Categories
+ * @property \App\Model\Table\MetaFieldsTable&\Cake\ORM\Association\HasMany $MetaFields
+ * @property \App\Model\Table\CategoriesTable&\Cake\ORM\Association\BelongsToMany $Categories
  *
  * @method \App\Model\Entity\BlogPost newEmptyEntity()
  * @method \App\Model\Entity\BlogPost newEntity(array $data, array $options = [])
@@ -50,6 +52,14 @@ class BlogPostsTable extends Table
         $this->belongsTo('Categories', [
             'foreignKey' => 'category_id',
             'joinType' => 'INNER',
+        ]);
+        $this->hasMany('MetaFields', [
+            'foreignKey' => 'blog_post_id',
+        ]);
+        $this->belongsToMany('Categories', [
+            'foreignKey' => 'blog_post_id',
+            'targetForeignKey' => 'category_id',
+            'joinTable' => 'blog_posts_categories',
         ]);
     }
 

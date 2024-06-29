@@ -17,6 +17,7 @@ declare(strict_types=1);
 namespace App\Controller;
 
 use Cake\Controller\Controller;
+use Psr\Log\LogLevel;
 
 /**
  * Application Controller
@@ -39,10 +40,18 @@ class AppController extends Controller
      */
     public function initialize(): void
     {
+//        $this->log("This is the youtube log!!!!! 222", LogLevel::INFO, 'youtube');
+
         parent::initialize();
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
+
+        $my_session = $this->request->getSession();
+//        $my_session->write("test", "youtube 22222");
+//        pr($my_session->read("test"));
+//        pr($my_session);
+
 
         /*
          * Enable the following component for recommended CakePHP form protection settings.

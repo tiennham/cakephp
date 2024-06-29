@@ -12,6 +12,7 @@ use Cake\Validation\Validator;
  * Categories Model
  *
  * @property \App\Model\Table\BlogPostsTable&\Cake\ORM\Association\HasMany $BlogPosts
+ * @property \App\Model\Table\BlogPostsTable&\Cake\ORM\Association\BelongsToMany $BlogPosts
  *
  * @method \App\Model\Entity\Category newEmptyEntity()
  * @method \App\Model\Entity\Category newEntity(array $data, array $options = [])
@@ -49,6 +50,11 @@ class CategoriesTable extends Table
 
         $this->hasMany('BlogPosts', [
             'foreignKey' => 'category_id',
+        ]);
+        $this->belongsToMany('BlogPosts', [
+            'foreignKey' => 'category_id',
+            'targetForeignKey' => 'blog_post_id',
+            'joinTable' => 'blog_posts_categories',
         ]);
     }
 

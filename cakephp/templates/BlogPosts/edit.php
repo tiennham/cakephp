@@ -23,8 +23,17 @@
             <fieldset>
                 <legend><?= __('Edit Blog Post') ?></legend>
                 <?php
-                    echo $this->Form->control('name');
-                    echo $this->Form->control('category_id', ['options' => $categories]);
+                    echo $this->Form->control('name', [
+                        'templateVars' => ['customClass' => 'youtube'],
+                    ]);
+                    echo $this->Form->control('category_id');
+                    echo $this->Form->control('categories._ids', ['options' => $categories]);
+                ?>
+                <?php
+                    for($i = 0; $i < 2; $i++) {
+                        echo $this->Form->control('meta_fields.'.$i.'.meta_key');
+                        echo $this->Form->control('meta_fields.'.$i.'.meta_value');
+                    }
                 ?>
             </fieldset>
             <?= $this->Form->button(__('Submit')) ?>

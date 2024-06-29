@@ -24,7 +24,7 @@
                 <tr>
                     <td><?= $this->Number->format($blogPost->id) ?></td>
                     <td><?= h($blogPost->name) ?></td>
-                    <td><?= $blogPost->has('category') ? $this->Html->link($blogPost->category->name, ['controller' => 'Categories', 'action' => 'view', $blogPost->category->id]) : '' ?></td>
+                    <td><?= $this->Number->format($blogPost->category_id) ?></td>
                     <td><?= h($blogPost->created) ?></td>
                     <td><?= h($blogPost->modified) ?></td>
                     <td class="actions">
