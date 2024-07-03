@@ -19,28 +19,12 @@
             <h3><?= h($user->email) ?></h3>
             <table>
                 <tr>
-                    <th><?= __('Username') ?></th>
-                    <td><?= h($user->username) ?></td>
-                </tr>
-                <tr>
                     <th><?= __('Email') ?></th>
                     <td><?= h($user->email) ?></td>
                 </tr>
                 <tr>
-                    <th><?= __('Image') ?></th>
-                    <td><?= h($user->image) ?></td>
-                </tr>
-                <tr>
                     <th><?= __('Id') ?></th>
                     <td><?= $this->Number->format($user->id) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Amount') ?></th>
-                    <td><?= $this->Number->format($user->amount) ?></td>
-                </tr>
-                <tr>
-                    <th><?= __('Status') ?></th>
-                    <td><?= $this->Number->format($user->status) ?></td>
                 </tr>
                 <tr>
                     <th><?= __('Created') ?></th>
@@ -58,8 +42,11 @@
                     <table>
                         <tr>
                             <th><?= __('Id') ?></th>
+                            <th><?= __('User Id') ?></th>
                             <th><?= __('Title') ?></th>
-                            <th><?= __('Details') ?></th>
+                            <th><?= __('Slug') ?></th>
+                            <th><?= __('Body') ?></th>
+                            <th><?= __('Published') ?></th>
                             <th><?= __('Created') ?></th>
                             <th><?= __('Modified') ?></th>
                             <th class="actions"><?= __('Actions') ?></th>
@@ -67,8 +54,11 @@
                         <?php foreach ($user->articles as $articles) : ?>
                         <tr>
                             <td><?= h($articles->id) ?></td>
+                            <td><?= h($articles->user_id) ?></td>
                             <td><?= h($articles->title) ?></td>
-                            <td><?= h($articles->details) ?></td>
+                            <td><?= h($articles->slug) ?></td>
+                            <td><?= h($articles->body) ?></td>
+                            <td><?= h($articles->published) ?></td>
                             <td><?= h($articles->created) ?></td>
                             <td><?= h($articles->modified) ?></td>
                             <td class="actions">

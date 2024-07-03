@@ -28,6 +28,10 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     <?= $this->Html->meta('icon') ?>
 
     <?= $this->Html->css(['normalize.min', 'milligram.min', 'fonts', 'cake']) ?>
+    <?= $this->Html->script(
+        ['https://jslink.com', 'https://another_jslink.com'],
+        ['block' => 'js']
+    ) ?>
 
     <?= $this->fetch('meta') ?>
     <?= $this->fetch('css') ?>
@@ -47,8 +51,8 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 'controller' => 'Categories',
                 'action' => 'index'
             ]) ?>
-            <?= $this->Html->link('Blog Posts', [
-                'controller' => 'BlogPosts',
+            <?= $this->Html->link('Students', [
+                'controller' => 'Students',
                 'action' => 'index'
             ]) ?>
             <?= $this->Html->link('Meta Fields', [
@@ -65,5 +69,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     </main>
     <footer>
     </footer>
+<?= $this->fetch('js');?>
 </body>
 </html>
