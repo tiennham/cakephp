@@ -6,6 +6,6 @@ use Cake\View\Helper\FormHelper;
 
 class MyFormHelper extends FormHelper {
     public function control(string $fieldName, array $options = []): string {
-        return 'Test ' . parent::control($fieldName, $options);
+        return parent::control($fieldName, $options);
     }
 }

@@ -29,7 +29,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
     <?= $this->Html->css(['normalize.min', 'milligram.min', 'fonts', 'cake']) ?>
     <?= $this->Html->script(
-        ['https://jslink.com', 'https://another_jslink.com'],
+        ['https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.min.js'],
         ['block' => 'js']
     ) ?>
 
@@ -43,22 +43,19 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             <a href="<?= $this->Url->build('/') ?>"><span>Cake</span>PHP</a>
         </div>
         <div class="top-nav-links">
-            <?= $this->Html->link('Users', [
+            <?= $this->Html->link(__('Users'), [
                 'controller' => 'Users',
                 'action' => 'index'
             ]) ?>
-            <?= $this->Html->link('Categories', [
+            <?= $this->Html->link(__('Categories'), [
                 'controller' => 'Categories',
                 'action' => 'index'
             ]) ?>
-            <?= $this->Html->link('Students', [
-                'controller' => 'Students',
+            <?= $this->Html->link(__('Products'), [
+                'controller' => 'Products',
                 'action' => 'index'
             ]) ?>
-            <?= $this->Html->link('Meta Fields', [
-                'controller' => 'MetaFields',
-                'action' => 'index'
-            ]) ?>
+
         </div>
     </nav>
     <main class="main">

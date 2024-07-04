@@ -1,0 +1,987 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2024-07-04 08:01+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/Admin/CategoriesController.php:55
+#: ./src/Controller/Admin/CategoriesController.php:79
+#: ./src/Controller/CategoriesController.php:53
+#: ./src/Controller/CategoriesController.php:78
+msgid "The category has been saved."
+msgstr ""
+
+#: ./src/Controller/Admin/CategoriesController.php:59
+#: ./src/Controller/Admin/CategoriesController.php:83
+#: ./src/Controller/CategoriesController.php:57
+#: ./src/Controller/CategoriesController.php:82
+msgid "The category could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/Admin/CategoriesController.php:100
+#: ./src/Controller/CategoriesController.php:100
+msgid "The category has been deleted."
+msgstr ""
+
+#: ./src/Controller/Admin/CategoriesController.php:102
+#: ./src/Controller/CategoriesController.php:102
+msgid "The category could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/Admin/UsersController.php:62
+#: ./src/Controller/Admin/UsersController.php:86
+#: ./src/Controller/UsersController.php:53
+#: ./src/Controller/UsersController.php:77
+msgid "The user has been saved."
+msgstr ""
+
+#: ./src/Controller/Admin/UsersController.php:66
+#: ./src/Controller/Admin/UsersController.php:90
+#: ./src/Controller/UsersController.php:57
+#: ./src/Controller/UsersController.php:81
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/Admin/UsersController.php:107
+#: ./src/Controller/UsersController.php:98
+msgid "The user has been deleted."
+msgstr ""
+
+#: ./src/Controller/Admin/UsersController.php:109
+#: ./src/Controller/UsersController.php:100
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/Admin/UsersController.php:127
+msgid "Invalid username or password"
+msgstr ""
+
+#: ./src/Controller/ArticlesController.php:53
+#: ./src/Controller/ArticlesController.php:77
+msgid "The article has been saved."
+msgstr ""
+
+#: ./src/Controller/ArticlesController.php:57
+#: ./src/Controller/ArticlesController.php:81
+msgid "The article could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/ArticlesController.php:98
+msgid "The article has been deleted."
+msgstr ""
+
+#: ./src/Controller/ArticlesController.php:100
+msgid "The article could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/BlogPostsController.php:61
+#: ./src/Controller/BlogPostsController.php:86
+msgid "The blog post has been saved."
+msgstr ""
+
+#: ./src/Controller/BlogPostsController.php:65
+#: ./src/Controller/BlogPostsController.php:90
+msgid "The blog post could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/BlogPostsController.php:108
+msgid "The blog post has been deleted."
+msgstr ""
+
+#: ./src/Controller/BlogPostsController.php:110
+msgid "The blog post could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/MetaFieldsController.php:56
+#: ./src/Controller/MetaFieldsController.php:81
+msgid "The meta field has been saved."
+msgstr ""
+
+#: ./src/Controller/MetaFieldsController.php:60
+#: ./src/Controller/MetaFieldsController.php:85
+msgid "The meta field could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/MetaFieldsController.php:103
+msgid "The meta field has been deleted."
+msgstr ""
+
+#: ./src/Controller/MetaFieldsController.php:105
+msgid "The meta field could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/ProductsController.php:56
+#: ./src/Controller/ProductsController.php:81
+msgid "The product has been saved."
+msgstr ""
+
+#: ./src/Controller/ProductsController.php:60
+#: ./src/Controller/ProductsController.php:85
+msgid "The product could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/ProductsController.php:103
+msgid "The product has been deleted."
+msgstr ""
+
+#: ./src/Controller/ProductsController.php:105
+msgid "The product could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/ProfilesController.php:56
+#: ./src/Controller/ProfilesController.php:81
+msgid "The profile has been saved."
+msgstr ""
+
+#: ./src/Controller/ProfilesController.php:60
+#: ./src/Controller/ProfilesController.php:85
+msgid "The profile could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/ProfilesController.php:103
+msgid "The profile has been deleted."
+msgstr ""
+
+#: ./src/Controller/ProfilesController.php:105
+msgid "The profile could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SkillsController.php:56
+#: ./src/Controller/SkillsController.php:81
+msgid "The skill has been saved."
+msgstr ""
+
+#: ./src/Controller/SkillsController.php:60
+#: ./src/Controller/SkillsController.php:85
+msgid "The skill could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SkillsController.php:103
+msgid "The skill has been deleted."
+msgstr ""
+
+#: ./src/Controller/SkillsController.php:105
+msgid "The skill could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/StudentsController.php:53
+#: ./src/Controller/StudentsController.php:77
+msgid "The student has been saved."
+msgstr ""
+
+#: ./src/Controller/StudentsController.php:57
+#: ./src/Controller/StudentsController.php:81
+msgid "The student could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/StudentsController.php:98
+msgid "The student has been deleted."
+msgstr ""
+
+#: ./src/Controller/StudentsController.php:100
+msgid "The student could not be deleted. Please, try again."
+msgstr ""
+
+#: ./templates/Admin/Categories/add.php:10
+#: ./templates/Admin/Categories/edit.php:10
+#: ./templates/Admin/Categories/index.php:17
+#: ./templates/Admin/Categories/view.php:10
+#: ./templates/Admin/Categories/view.php:45
+#: ./templates/Admin/Users/add.php:10
+#: ./templates/Admin/Users/edit.php:10
+#: ./templates/Admin/Users/index.php:23
+#: ./templates/Admin/Users/view.php:10
+#: ./templates/Admin/Users/view.php:65
+#: ./templates/Admin/Users/view.php:96
+#: ./templates/Articles/add.php:10
+#: ./templates/Articles/edit.php:10
+#: ./templates/Articles/index.php:18
+#: ./templates/Articles/view.php:10
+#: ./templates/BlogPosts/add.php:11
+#: ./templates/BlogPosts/edit.php:11
+#: ./templates/BlogPosts/index.php:19
+#: ./templates/BlogPosts/view.php:10
+#: ./templates/BlogPosts/view.php:52
+#: ./templates/BlogPosts/view.php:83
+#: ./templates/Categories/add.php:10
+#: ./templates/Categories/edit.php:10
+#: ./templates/Categories/index.php:17
+#: ./templates/Categories/view.php:10
+#: ./templates/MetaFields/add.php:11
+#: ./templates/MetaFields/edit.php:11
+#: ./templates/MetaFields/index.php:19
+#: ./templates/MetaFields/view.php:10
+#: ./templates/Products/add.php:11
+#: ./templates/Products/edit.php:11
+#: ./templates/Products/index.php:19
+#: ./templates/Products/view.php:10
+#: ./templates/Profiles/add.php:11
+#: ./templates/Profiles/edit.php:11
+#: ./templates/Profiles/index.php:19
+#: ./templates/Profiles/view.php:10
+#: ./templates/Skills/add.php:11
+#: ./templates/Skills/edit.php:11
+#: ./templates/Skills/index.php:19
+#: ./templates/Skills/view.php:10
+#: ./templates/Students/add.php:10
+#: ./templates/Students/edit.php:10
+#: ./templates/Students/index.php:20
+#: ./templates/Students/view.php:10
+#: ./templates/Students/view.php:56
+#: ./templates/Students/view.php:86
+#: ./templates/Users/add.php:10
+#: ./templates/Users/edit.php:10
+#: ./templates/Users/index.php:23
+#: ./templates/Users/view.php:10
+#: ./templates/Users/view.php:65
+msgid "Actions"
+msgstr ""
+
+#: ./templates/Admin/Categories/add.php:11
+#: ./templates/Admin/Categories/edit.php:16
+#: ./templates/Admin/Categories/view.php:13
+#: ./templates/Categories/add.php:11
+#: ./templates/Categories/edit.php:16
+#: ./templates/Categories/view.php:13
+msgid "List Categories"
+msgstr ""
+
+#: ./templates/Admin/Categories/add.php:18
+#: ./templates/Categories/add.php:18
+#: ./templates/element/Categories/fields.php:5
+msgid "Add Category"
+msgstr ""
+
+#: ./templates/Admin/Categories/add.php:23
+#: ./templates/Admin/Categories/edit.php:28
+#: ./templates/Admin/Users/add.php:29
+#: ./templates/Admin/Users/edit.php:34
+#: ./templates/Articles/add.php:24
+#: ./templates/Articles/edit.php:29
+#: ./templates/BlogPosts/add.php:32
+#: ./templates/BlogPosts/edit.php:39
+#: ./templates/Categories/add.php:23
+#: ./templates/Categories/edit.php:28
+#: ./templates/MetaFields/add.php:26
+#: ./templates/MetaFields/edit.php:31
+#: ./templates/Products/add.php:25
+#: ./templates/Products/edit.php:30
+#: ./templates/Profiles/add.php:25
+#: ./templates/Profiles/edit.php:30
+#: ./templates/Skills/add.php:25
+#: ./templates/Skills/edit.php:30
+#: ./templates/Students/add.php:27
+#: ./templates/Students/edit.php:32
+#: ./templates/Users/add.php:28
+#: ./templates/Users/edit.php:33
+#: ./templates/element/Categories/fields.php:10
+msgid "Submit"
+msgstr ""
+
+#: ./templates/Admin/Categories/edit.php:12
+#: ./templates/Admin/Categories/index.php:29
+#: ./templates/Admin/Categories/view.php:57
+#: ./templates/Admin/Users/edit.php:12
+#: ./templates/Admin/Users/index.php:40
+#: ./templates/Admin/Users/view.php:77
+#: ./templates/Admin/Users/view.php:108
+#: ./templates/Articles/edit.php:12
+#: ./templates/Articles/index.php:31
+#: ./templates/BlogPosts/edit.php:13
+#: ./templates/BlogPosts/index.php:33
+#: ./templates/BlogPosts/view.php:63
+#: ./templates/BlogPosts/view.php:96
+#: ./templates/Categories/edit.php:12
+#: ./templates/Categories/index.php:29
+#: ./templates/MetaFields/edit.php:13
+#: ./templates/MetaFields/index.php:33
+#: ./templates/Products/edit.php:13
+#: ./templates/Products/index.php:33
+#: ./templates/Profiles/edit.php:13
+#: ./templates/Profiles/index.php:33
+#: ./templates/Skills/edit.php:13
+#: ./templates/Skills/index.php:33
+#: ./templates/Students/edit.php:12
+#: ./templates/Students/index.php:35
+#: ./templates/Students/view.php:67
+#: ./templates/Students/view.php:98
+#: ./templates/Users/edit.php:12
+#: ./templates/Users/index.php:40
+#: ./templates/Users/view.php:77
+msgid "Delete"
+msgstr "删除"
+
+#: ./templates/Admin/Categories/edit.php:14
+#: ./templates/Admin/Categories/index.php:29
+#: ./templates/Admin/Categories/view.php:12
+#: ./templates/Admin/Categories/view.php:57
+#: ./templates/Admin/Users/edit.php:14
+#: ./templates/Admin/Users/index.php:40
+#: ./templates/Admin/Users/view.php:12
+#: ./templates/Admin/Users/view.php:77
+#: ./templates/Admin/Users/view.php:108
+#: ./templates/Articles/edit.php:14
+#: ./templates/Articles/index.php:31
+#: ./templates/Articles/view.php:12
+#: ./templates/BlogPosts/edit.php:15
+#: ./templates/BlogPosts/index.php:33
+#: ./templates/BlogPosts/view.php:12
+#: ./templates/BlogPosts/view.php:63
+#: ./templates/BlogPosts/view.php:96
+#: ./templates/Categories/edit.php:14
+#: ./templates/Categories/index.php:29
+#: ./templates/Categories/view.php:12
+#: ./templates/MetaFields/edit.php:15
+#: ./templates/MetaFields/index.php:33
+#: ./templates/MetaFields/view.php:12
+#: ./templates/Products/edit.php:15
+#: ./templates/Products/index.php:33
+#: ./templates/Products/view.php:12
+#: ./templates/Profiles/edit.php:15
+#: ./templates/Profiles/index.php:33
+#: ./templates/Profiles/view.php:12
+#: ./templates/Skills/edit.php:15
+#: ./templates/Skills/index.php:33
+#: ./templates/Skills/view.php:12
+#: ./templates/Students/edit.php:14
+#: ./templates/Students/index.php:35
+#: ./templates/Students/view.php:12
+#: ./templates/Students/view.php:67
+#: ./templates/Students/view.php:98
+#: ./templates/Users/edit.php:14
+#: ./templates/Users/index.php:40
+#: ./templates/Users/view.php:12
+#: ./templates/Users/view.php:77
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: ./templates/Admin/Categories/edit.php:23
+#: ./templates/Admin/Categories/view.php:11
+#: ./templates/Categories/edit.php:23
+#: ./templates/Categories/view.php:11
+msgid "Edit Category"
+msgstr ""
+
+#: ./templates/Admin/Categories/index.php:8
+#: ./templates/Admin/Categories/view.php:14
+#: ./templates/Categories/index.php:8
+#: ./templates/Categories/view.php:14
+msgid "New Category"
+msgstr ""
+
+#: ./templates/Admin/Categories/index.php:9
+#: ./templates/Categories/index.php:9
+#: ./templates/layout/blog.php:43
+#: ./templates/layout/default.php:50
+msgid "Categories"
+msgstr "类别"
+
+#: ./templates/Admin/Categories/index.php:27
+#: ./templates/Admin/Categories/view.php:55
+#: ./templates/Admin/Users/index.php:38
+#: ./templates/Admin/Users/view.php:75
+#: ./templates/Admin/Users/view.php:106
+#: ./templates/Articles/index.php:29
+#: ./templates/BlogPosts/index.php:31
+#: ./templates/BlogPosts/view.php:61
+#: ./templates/BlogPosts/view.php:94
+#: ./templates/Categories/index.php:27
+#: ./templates/MetaFields/index.php:31
+#: ./templates/Products/index.php:31
+#: ./templates/Profiles/index.php:31
+#: ./templates/Skills/index.php:31
+#: ./templates/Students/index.php:33
+#: ./templates/Students/view.php:65
+#: ./templates/Students/view.php:96
+#: ./templates/Users/index.php:38
+#: ./templates/Users/view.php:75
+#: ./vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php:1260
+msgid "View"
+msgstr ""
+
+#: ./templates/Admin/Categories/index.php:28
+#: ./templates/Admin/Categories/view.php:56
+#: ./templates/Admin/Users/index.php:39
+#: ./templates/Admin/Users/view.php:76
+#: ./templates/Admin/Users/view.php:107
+#: ./templates/Articles/index.php:30
+#: ./templates/BlogPosts/index.php:32
+#: ./templates/BlogPosts/view.php:62
+#: ./templates/BlogPosts/view.php:95
+#: ./templates/Categories/index.php:28
+#: ./templates/MetaFields/index.php:32
+#: ./templates/Products/index.php:32
+#: ./templates/Profiles/index.php:32
+#: ./templates/Skills/index.php:32
+#: ./templates/Students/index.php:34
+#: ./templates/Students/view.php:66
+#: ./templates/Students/view.php:97
+#: ./templates/Users/index.php:39
+#: ./templates/Users/view.php:76
+msgid "Edit"
+msgstr "编辑"
+
+#: ./templates/Admin/Categories/index.php:38
+#: ./templates/Admin/Users/index.php:49
+#: ./templates/Articles/index.php:40
+#: ./templates/BlogPosts/index.php:42
+#: ./templates/Categories/index.php:38
+#: ./templates/MetaFields/index.php:42
+#: ./templates/Products/index.php:42
+#: ./templates/Profiles/index.php:42
+#: ./templates/Skills/index.php:42
+#: ./templates/Students/index.php:44
+#: ./templates/Users/index.php:49
+msgid "first"
+msgstr ""
+
+#: ./templates/Admin/Categories/index.php:39
+#: ./templates/Admin/Users/index.php:50
+#: ./templates/Articles/index.php:41
+#: ./templates/BlogPosts/index.php:43
+#: ./templates/Categories/index.php:39
+#: ./templates/MetaFields/index.php:43
+#: ./templates/Products/index.php:43
+#: ./templates/Profiles/index.php:43
+#: ./templates/Skills/index.php:43
+#: ./templates/Students/index.php:45
+#: ./templates/Users/index.php:50
+msgid "previous"
+msgstr ""
+
+#: ./templates/Admin/Categories/index.php:41
+#: ./templates/Admin/Users/index.php:52
+#: ./templates/Articles/index.php:43
+#: ./templates/BlogPosts/index.php:45
+#: ./templates/Categories/index.php:41
+#: ./templates/MetaFields/index.php:45
+#: ./templates/Products/index.php:45
+#: ./templates/Profiles/index.php:45
+#: ./templates/Skills/index.php:45
+#: ./templates/Students/index.php:47
+#: ./templates/Users/index.php:52
+msgid "next"
+msgstr ""
+
+#: ./templates/Admin/Categories/index.php:42
+#: ./templates/Admin/Users/index.php:53
+#: ./templates/Articles/index.php:44
+#: ./templates/BlogPosts/index.php:46
+#: ./templates/Categories/index.php:42
+#: ./templates/MetaFields/index.php:46
+#: ./templates/Products/index.php:46
+#: ./templates/Profiles/index.php:46
+#: ./templates/Skills/index.php:46
+#: ./templates/Students/index.php:48
+#: ./templates/Users/index.php:53
+msgid "last"
+msgstr ""
+
+#: ./templates/Admin/Categories/index.php:44
+#: ./templates/Admin/Users/index.php:55
+#: ./templates/Articles/index.php:46
+#: ./templates/BlogPosts/index.php:48
+#: ./templates/Categories/index.php:44
+#: ./templates/MetaFields/index.php:48
+#: ./templates/Products/index.php:48
+#: ./templates/Profiles/index.php:48
+#: ./templates/Skills/index.php:48
+#: ./templates/Students/index.php:50
+#: ./templates/Users/index.php:55
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: ./templates/Admin/Categories/view.php:12
+#: ./templates/Categories/view.php:12
+msgid "Delete Category"
+msgstr ""
+
+#: ./templates/Admin/Categories/view.php:22
+#: ./templates/Admin/Categories/view.php:41
+#: ./templates/Admin/Users/view.php:93
+#: ./templates/BlogPosts/view.php:22
+#: ./templates/BlogPosts/view.php:49
+#: ./templates/Categories/view.php:22
+#: ./templates/Products/view.php:22
+#: ./templates/Skills/view.php:26
+#: ./templates/Students/view.php:22
+msgid "Name"
+msgstr ""
+
+#: ./templates/Admin/Categories/view.php:26
+#: ./templates/Admin/Categories/view.php:40
+#: ./templates/Admin/Users/view.php:34
+#: ./templates/Admin/Users/view.php:60
+#: ./templates/Admin/Users/view.php:91
+#: ./templates/Articles/view.php:26
+#: ./templates/BlogPosts/view.php:26
+#: ./templates/BlogPosts/view.php:48
+#: ./templates/BlogPosts/view.php:77
+#: ./templates/Categories/view.php:26
+#: ./templates/MetaFields/view.php:30
+#: ./templates/Products/view.php:30
+#: ./templates/Profiles/view.php:26
+#: ./templates/Skills/view.php:30
+#: ./templates/Students/view.php:30
+#: ./templates/Students/view.php:52
+#: ./templates/Students/view.php:81
+#: ./templates/Users/view.php:34
+#: ./templates/Users/view.php:60
+msgid "Id"
+msgstr ""
+
+#: ./templates/Admin/Categories/view.php:30
+#: ./templates/Admin/Categories/view.php:43
+#: ./templates/Admin/Users/view.php:46
+#: ./templates/Admin/Users/view.php:63
+#: ./templates/Admin/Users/view.php:94
+#: ./templates/Articles/view.php:30
+#: ./templates/BlogPosts/view.php:34
+#: ./templates/BlogPosts/view.php:50
+#: ./templates/BlogPosts/view.php:81
+#: ./templates/Categories/view.php:30
+#: ./templates/MetaFields/view.php:34
+#: ./templates/Products/view.php:34
+#: ./templates/Profiles/view.php:34
+#: ./templates/Skills/view.php:34
+#: ./templates/Users/view.php:46
+#: ./templates/Users/view.php:63
+msgid "Created"
+msgstr ""
+
+#: ./templates/Admin/Categories/view.php:35
+msgid "Related Products"
+msgstr ""
+
+#: ./templates/Admin/Categories/view.php:42
+#: ./templates/BlogPosts/view.php:30
+msgid "Category Id"
+msgstr ""
+
+#: ./templates/Admin/Categories/view.php:44
+#: ./templates/Admin/Users/view.php:50
+#: ./templates/Admin/Users/view.php:64
+#: ./templates/Admin/Users/view.php:95
+#: ./templates/Articles/view.php:34
+#: ./templates/BlogPosts/view.php:38
+#: ./templates/BlogPosts/view.php:51
+#: ./templates/BlogPosts/view.php:82
+#: ./templates/MetaFields/view.php:38
+#: ./templates/Products/view.php:38
+#: ./templates/Profiles/view.php:38
+#: ./templates/Skills/view.php:38
+#: ./templates/Users/view.php:50
+#: ./templates/Users/view.php:64
+msgid "Modified"
+msgstr ""
+
+#: ./templates/Admin/Users/add.php:11
+#: ./templates/Admin/Users/edit.php:16
+#: ./templates/Admin/Users/view.php:13
+#: ./templates/Users/add.php:11
+#: ./templates/Users/edit.php:16
+#: ./templates/Users/view.php:13
+msgid "List Users"
+msgstr ""
+
+#: ./templates/Admin/Users/add.php:18
+#: ./templates/Users/add.php:18
+msgid "Add User"
+msgstr ""
+
+#: ./templates/Admin/Users/edit.php:23
+#: ./templates/Admin/Users/view.php:11
+#: ./templates/Users/edit.php:23
+#: ./templates/Users/view.php:11
+msgid "Edit User"
+msgstr ""
+
+#: ./templates/Admin/Users/index.php:8
+#: ./templates/Admin/Users/view.php:14
+#: ./templates/Users/index.php:8
+#: ./templates/Users/view.php:14
+msgid "New User"
+msgstr ""
+
+#: ./templates/Admin/Users/index.php:9
+#: ./templates/Users/index.php:9
+#: ./templates/layout/blog.php:37
+#: ./templates/layout/default.php:46
+msgid "Users"
+msgstr "用户"
+
+#: ./templates/Admin/Users/login.php:9
+#: ./templates/Users/login.php:10
+msgid "Login"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:12
+#: ./templates/Users/view.php:12
+msgid "Delete User"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:22
+#: ./templates/Users/view.php:22
+msgid "Username"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:26
+#: ./templates/Users/view.php:26
+msgid "Email"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:30
+#: ./templates/Users/view.php:30
+msgid "Image"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:38
+#: ./templates/Students/view.php:83
+#: ./templates/Users/view.php:38
+msgid "Amount"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:42
+#: ./templates/Users/view.php:42
+msgid "Status"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:55
+msgid "Related Profiles"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:61
+#: ./templates/Admin/Users/view.php:92
+msgid "User Id"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:62
+#: ./templates/Profiles/view.php:30
+msgid "Mobile"
+msgstr ""
+
+#: ./templates/Admin/Users/view.php:86
+msgid "Related Skills"
+msgstr ""
+
+#: ./templates/Articles/add.php:11
+#: ./templates/Articles/edit.php:16
+#: ./templates/Articles/view.php:13
+msgid "List Articles"
+msgstr ""
+
+#: ./templates/Articles/add.php:18
+msgid "Add Article"
+msgstr ""
+
+#: ./templates/Articles/edit.php:23
+#: ./templates/Articles/view.php:11
+msgid "Edit Article"
+msgstr ""
+
+#: ./templates/Articles/index.php:8
+#: ./templates/Articles/view.php:14
+msgid "New Article"
+msgstr ""
+
+#: ./templates/Articles/index.php:9
+msgid "Articles"
+msgstr ""
+
+#: ./templates/Articles/view.php:12
+msgid "Delete Article"
+msgstr ""
+
+#: ./templates/Articles/view.php:22
+#: ./templates/Users/view.php:61
+msgid "Title"
+msgstr ""
+
+#: ./templates/Articles/view.php:39
+#: ./templates/Users/view.php:62
+msgid "Details"
+msgstr ""
+
+#: ./templates/BlogPosts/add.php:12
+#: ./templates/BlogPosts/edit.php:17
+#: ./templates/BlogPosts/view.php:13
+msgid "List Blog Posts"
+msgstr ""
+
+#: ./templates/BlogPosts/add.php:19
+msgid "Add Blog Post"
+msgstr ""
+
+#: ./templates/BlogPosts/edit.php:24
+#: ./templates/BlogPosts/view.php:11
+msgid "Edit Blog Post"
+msgstr ""
+
+#: ./templates/BlogPosts/index.php:8
+#: ./templates/BlogPosts/view.php:14
+msgid "New Blog Post"
+msgstr ""
+
+#: ./templates/BlogPosts/index.php:9
+msgid "Blog Posts"
+msgstr ""
+
+#: ./templates/BlogPosts/view.php:12
+msgid "Delete Blog Post"
+msgstr ""
+
+#: ./templates/BlogPosts/view.php:43
+msgid "Related Categories"
+msgstr ""
+
+#: ./templates/BlogPosts/view.php:72
+msgid "Related Meta Fields"
+msgstr ""
+
+#: ./templates/BlogPosts/view.php:78
+#: ./templates/MetaFields/view.php:22
+msgid "Meta Key"
+msgstr ""
+
+#: ./templates/BlogPosts/view.php:79
+#: ./templates/MetaFields/view.php:43
+msgid "Meta Value"
+msgstr ""
+
+#: ./templates/BlogPosts/view.php:80
+msgid "Blog Post Id"
+msgstr ""
+
+#: ./templates/MetaFields/add.php:12
+#: ./templates/MetaFields/edit.php:17
+#: ./templates/MetaFields/view.php:13
+msgid "List Meta Fields"
+msgstr ""
+
+#: ./templates/MetaFields/add.php:19
+msgid "Add Meta Field"
+msgstr ""
+
+#: ./templates/MetaFields/edit.php:24
+#: ./templates/MetaFields/view.php:11
+msgid "Edit Meta Field"
+msgstr ""
+
+#: ./templates/MetaFields/index.php:8
+#: ./templates/MetaFields/view.php:14
+msgid "New Meta Field"
+msgstr ""
+
+#: ./templates/MetaFields/index.php:9
+msgid "Meta Fields"
+msgstr ""
+
+#: ./templates/MetaFields/view.php:12
+msgid "Delete Meta Field"
+msgstr ""
+
+#: ./templates/MetaFields/view.php:26
+msgid "Blog Post"
+msgstr ""
+
+#: ./templates/Products/add.php:12
+#: ./templates/Products/edit.php:17
+#: ./templates/Products/view.php:13
+msgid "List Products"
+msgstr ""
+
+#: ./templates/Products/add.php:19
+msgid "Add Product"
+msgstr ""
+
+#: ./templates/Products/edit.php:24
+#: ./templates/Products/view.php:11
+msgid "Edit Product"
+msgstr ""
+
+#: ./templates/Products/index.php:8
+#: ./templates/Products/view.php:14
+msgid "New Product"
+msgstr ""
+
+#: ./templates/Products/index.php:9
+#: ./templates/layout/blog.php:49
+#: ./templates/layout/default.php:54
+msgid "Products"
+msgstr "产品"
+
+#: ./templates/Products/view.php:12
+msgid "Delete Product"
+msgstr ""
+
+#: ./templates/Products/view.php:26
+msgid "Category"
+msgstr ""
+
+#: ./templates/Profiles/add.php:12
+#: ./templates/Profiles/edit.php:17
+#: ./templates/Profiles/view.php:13
+msgid "List Profiles"
+msgstr ""
+
+#: ./templates/Profiles/add.php:19
+msgid "Add Profile"
+msgstr ""
+
+#: ./templates/Profiles/edit.php:24
+#: ./templates/Profiles/view.php:11
+msgid "Edit Profile"
+msgstr ""
+
+#: ./templates/Profiles/index.php:8
+#: ./templates/Profiles/view.php:14
+msgid "New Profile"
+msgstr ""
+
+#: ./templates/Profiles/index.php:9
+msgid "Profiles"
+msgstr ""
+
+#: ./templates/Profiles/view.php:12
+msgid "Delete Profile"
+msgstr ""
+
+#: ./templates/Profiles/view.php:22
+#: ./templates/Skills/view.php:22
+msgid "User"
+msgstr ""
+
+#: ./templates/Skills/add.php:12
+#: ./templates/Skills/edit.php:17
+#: ./templates/Skills/view.php:13
+msgid "List Skills"
+msgstr ""
+
+#: ./templates/Skills/add.php:19
+msgid "Add Skill"
+msgstr ""
+
+#: ./templates/Skills/edit.php:24
+#: ./templates/Skills/view.php:11
+msgid "Edit Skill"
+msgstr ""
+
+#: ./templates/Skills/index.php:8
+#: ./templates/Skills/view.php:14
+msgid "New Skill"
+msgstr ""
+
+#: ./templates/Skills/index.php:9
+msgid "Skills"
+msgstr ""
+
+#: ./templates/Skills/view.php:12
+msgid "Delete Skill"
+msgstr ""
+
+#: ./templates/Students/add.php:11
+#: ./templates/Students/edit.php:16
+#: ./templates/Students/view.php:13
+msgid "List Students"
+msgstr ""
+
+#: ./templates/Students/add.php:18
+msgid "Add Student"
+msgstr ""
+
+#: ./templates/Students/edit.php:23
+#: ./templates/Students/view.php:11
+msgid "Edit Student"
+msgstr ""
+
+#: ./templates/Students/index.php:8
+#: ./templates/Students/view.php:14
+msgid "New Student"
+msgstr ""
+
+#: ./templates/Students/index.php:9
+msgid "Students"
+msgstr ""
+
+#: ./templates/Students/view.php:12
+msgid "Delete Student"
+msgstr ""
+
+#: ./templates/Students/view.php:26
+msgid "Country"
+msgstr ""
+
+#: ./templates/Students/view.php:34
+msgid "Age"
+msgstr ""
+
+#: ./templates/Students/view.php:38
+#: ./templates/Students/view.php:84
+msgid "Created At"
+msgstr ""
+
+#: ./templates/Students/view.php:42
+#: ./templates/Students/view.php:55
+#: ./templates/Students/view.php:85
+msgid "Updated At"
+msgstr ""
+
+#: ./templates/Students/view.php:47
+msgid "Related Football Ragistrations"
+msgstr ""
+
+#: ./templates/Students/view.php:53
+#: ./templates/Students/view.php:82
+msgid "Student Id"
+msgstr "学生卡"
+
+#: ./templates/Students/view.php:54
+msgid "Created To"
+msgstr "创建于"
+
+#: ./templates/Students/view.php:76
+msgid "Related Picnic Ragistrations"
+msgstr "相关野餐注册"
+
+#: ./templates/Users/view.php:55
+msgid "Related Articles"
+msgstr "相关文章"
+
+#: ./templates/element/nav.php:6
+msgid "Home"
+msgstr "主页"
+
+#: ./templates/element/nav.php:10
+msgid "About"
+msgstr "关于"
+
+#: ./templates/element/nav.php:13
+msgid "Contact"
+msgstr "接触"
+
+#: ./templates/layout/blog.php:25
+msgid "A simple Blog Layout"
+msgstr "简单的博客布局"
+
+#: ./templates/layout/blog.php:26
+msgid "This is a modified jumbotron that occupies the entire horizontal space of its parent."
+msgstr "这是一个经过改装的巨型电子屏，占据了其父电子屏的整个水平空间。"
+
+#: ./templates/layout/blog.php:33
+msgid "Menu"
+msgstr "菜单"
+
+#: ./templates/layout/error.php:36
+msgid "Back"
+msgstr "后退"
+

@@ -41,7 +41,8 @@ use Psr\Http\Message\ServerRequestInterface;
  * This defines the bootstrapping logic and middleware layers you
  * want to use in your application.
  */
-class Application extends BaseApplication implements AuthenticationServiceProviderInterface
+class Application extends BaseApplication
+    implements AuthenticationServiceProviderInterface
 {
     /**
      * Load all the application configuration and bootstrap logic.
@@ -71,6 +72,7 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
         }
 
         // Load more plugins here
+        $this->addPlugin('ADmad/I18n');
     }
 
     /**
@@ -107,7 +109,16 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
             // https://book.cakephp.org/4/en/security/csrf.html#cross-site-request-forgery-csrf-middleware
             ->add(new CsrfProtectionMiddleware([
                 'httponly' => true,
-            ]));
+            ]))
+            ->add(new \ADmad\I18n\Middleware\I18nMiddleware([
+                // If `true` will attempt to get matching languges in "languages" list based
+                // on browser locale and redirect to that when going to site root.
+                'detectLanguage' => true,
+                // Default language for app. If language detection is disabled or no
+                // matching language is found redirect to this language
+                'defaultLanguage' => 'en',
+            ]))
+            ;
 
         return $middlewareQueue;
     }
@@ -142,7 +153,11 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
     public function getAuthenticationService(ServerRequestInterface $request): AuthenticationServiceInterface
     {
         $authenticationService = new AuthenticationService([
-            'unauthenticatedRedirect' => Router::url('/users/login'),
+            'unauthenticatedRedirect' => \Cake\Routing\Router::url([
+                'prefix' => 'Admin',
+                'controller' => 'Users',
+                'action' => 'login',
+            ]),
             'queryParam' => 'redirect',
         ]);
 
@@ -162,7 +177,11 @@ class Application extends BaseApplication implements AuthenticationServiceProvid
                 'username' => 'email',
                 'password' => 'password',
             ],
-            'loginUrl' => Router::url('/users/login'),
+            'loginUrl' => \Cake\Routing\Router::url([
+                'prefix' => 'Admin',
+                'controller' => 'Users',
+                'action' => 'login',
+            ]),
         ]);
 
         return $authenticationService;

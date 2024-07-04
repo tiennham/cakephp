@@ -40,18 +40,11 @@ class AppController extends Controller
      */
     public function initialize(): void
     {
-//        $this->log("This is the youtube log!!!!! 222", LogLevel::INFO, 'youtube');
 
         parent::initialize();
 
         $this->loadComponent('RequestHandler');
         $this->loadComponent('Flash');
-        $this->loadComponent('Authentication.Authentication');
-
-//        $my_session = $this->request->getSession();
-//        $my_session->write("test", "youtube 22222");
-//        pr($my_session->read("test"));
-//        pr($my_session);
 
 
         /*
@@ -64,8 +57,7 @@ class AppController extends Controller
     public function beforeFilter(\Cake\Event\EventInterface $event)
     {
         parent::beforeFilter($event);
-        // for all controllers in our application, make index and view
-        // actions public, skipping the authentication check
-        $this->Authentication->addUnauthenticatedActions(['index', 'view']);
+        $this->viewBuilder()->setLayout('blog');
     }
+
 }

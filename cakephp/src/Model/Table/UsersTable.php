@@ -84,10 +84,17 @@ class UsersTable extends Table
             ->notEmptyString('password');
 
         $validator
-            ->scalar('image')
-            ->maxLength('image', 255)
-            ->requirePresence('image', 'create')
-            ->notEmptyFile('image');
+            ->allowEmptyFile('image')
+            ->add( 'image', [
+            'mimeType' => [
+                'rule' => [ 'mimeType', [ 'image/jpg', 'image/png', 'image/jpeg' ] ],
+                'message' => 'Please upload only jpg and png.',
+            ],
+            'fileSize' => [
+                'rule' => [ 'fileSize', '<=', '5MB' ],
+                'message' => 'Image file size must be less than 5MB.',
+            ],
+        ] );
 
         $validator
             ->notEmptyString('status');

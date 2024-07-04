@@ -37,11 +37,11 @@ class AppView extends View
      */
     public function initialize(): void
     {
-        $this->loadHelper('Form', [
-            'className' => 'MyForm',
-            'templates' => 'app_form'
-        ]);
+//        $this->loadHelper('Form', [
+//            'className' => 'MyForm',
+//            'templates' => 'app_form'
+//        ]);
         $this->loadHelper('Paginator', ['templates' => 'paginator-templates']);
-//        pr($this->Form);
+        $this->loadHelper('Authentication.Identity');
     }
 }

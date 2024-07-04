@@ -4,8 +4,66 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b53bf58438409b5b240ac8579fab7054",
+    "content-hash": "500bd6c85af65e97d8cea925393d657a",
     "packages": [
+        {
+            "name": "admad/cakephp-i18n",
+            "version": "2.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ADmad/cakephp-i18n.git",
+                "reference": "4208305e454cda236972e346c1fbd45727bb5f4e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ADmad/cakephp-i18n/zipball/4208305e454cda236972e346c1fbd45727bb5f4e",
+                "reference": "4208305e454cda236972e346c1fbd45727bb5f4e",
+                "shasum": ""
+            },
+            "require": {
+                "cakephp/cakephp": "^4.0.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "~8.5.0"
+            },
+            "type": "cakephp-plugin",
+            "autoload": {
+                "psr-4": {
+                    "ADmad\\I18n\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "ADmad",
+                    "homepage": "https://github.com/ADmad",
+                    "role": "Author"
+                }
+            ],
+            "description": "A CakePHP plugin for I18n related tools.",
+            "homepage": "https://github.com/ADmad/cakephp-i18n",
+            "keywords": [
+                "cakephp",
+                "i18n",
+                "messages",
+                "routing",
+                "validation"
+            ],
+            "support": {
+                "issues": "https://github.com/ADmad/cakephp-i18n/issues",
+                "source": "https://github.com/ADmad/cakephp-i18n"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/ADmad",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-03-12T12:48:18+00:00"
+        },
         {
             "name": "cakephp/authentication",
             "version": "2.10.2",

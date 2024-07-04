@@ -55,7 +55,22 @@ return function (RouteBuilder $routes): void {
          * its action called 'display', and we pass a param to select the view file
          * to use (in this case, templates/Pages/home.php)...
          */
-        $builder->connect('/', ['controller' => 'Pages', 'action' => 'display', 'test']);
+        $builder->connect('/', ['controller' => 'Blogs', 'action' => 'home']);
+        $builder->connect('/', [
+            'controller' => 'Blogs',
+            'action' => 'home'],
+            ['routeClass' => 'ADmad/I18n.I18nRoute']);
+
+        $builder->connect(
+            '/{controller}',
+            ['action' => 'index'],
+            ['routeClass' => 'ADmad/I18n.I18nRoute']
+        );
+        $builder->connect(
+            '/{controller}/{action}/*',
+            [],
+            ['routeClass' => 'ADmad/I18n.I18nRoute']
+        );
 
         /*
          * ...and connect the rest of 'Pages' controller's URLs.
@@ -77,6 +92,11 @@ return function (RouteBuilder $routes): void {
          * routes you want in your application.
          */
         $builder->fallbacks();
+    });
+
+    $routes->prefix('Admin', function (RouteBuilder $routes) {
+        $routes->connect('/', ['controller' => 'Users', 'action' => 'index']);
+        $routes->fallbacks(DashedRoute::class);
     });
 
     /*

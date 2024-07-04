@@ -3,6 +3,8 @@ declare(strict_types=1);
 
 namespace App\Controller;
 
+use Cake\Event\EventInterface;
+
 /**
  * Users Controller
  *
@@ -32,9 +34,7 @@ class UsersController extends AppController
      */
     public function view($id = null)
     {
-        $user = $this->Users->get($id, [
-            'contain' => ['Articles'],
-        ]);
+        $user = $this->Users->get($id);
 
         $this->set(compact('user'));
     }
