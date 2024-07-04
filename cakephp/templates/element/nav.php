@@ -21,11 +21,11 @@
         <span class="flag-icon flag-icon-us flag-icon-squared"></span>
         <span class="flag-icon flag-icon-vn flag-icon-squared"></span>
       </button>
+        <?php $passed_params = implode(',', $this->request->getParam('pass'));?>
       <div class="dropdown-menu">
-        <a class="dropdown-item" href="<?php echo $this->Url->build(['lang' => 'zh'], ['fullBase' => true]) ?>">中国人</a>
-        <a class="dropdown-item" href="<?php echo $this->Url->build(['lang' => 'en'], ['fullBase' => true]) ?>">English</a>
-        <a class="dropdown-item" href="<?php echo $this->Url->build(['lang' => 'vi'], ['fullBase' => true]) ?>">Tiếng Việt</a>
+        <a class="dropdown-item" href="<?php echo $this->Url->build(['lang' => 'zh', $passed_params]) ?>">中国人</a>
+        <a class="dropdown-item" href="<?php echo $this->Url->build(['lang' => 'en', $passed_params]) ?>">English</a>
+        <a class="dropdown-item" href="<?php echo $this->Url->build(['lang' => 'vi', $passed_params]) ?>">Tiếng Việt</a>
       </div>
     </div>
-
 </nav>
