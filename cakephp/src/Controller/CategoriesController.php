@@ -33,7 +33,7 @@ class CategoriesController extends AppController
     public function view($id = null)
     {
         $category = $this->Categories->get($id, [
-            'contain' => ['BlogPosts'],
+            'contain' => ['Products'],
         ]);
 
         $this->set(compact('category'));
@@ -70,7 +70,7 @@ class CategoriesController extends AppController
     public function edit($id = null)
     {
         $category = $this->Categories->get($id, [
-            'contain' => ['BlogPosts'],
+            'contain' => ['Products'],
         ]);
         if ($this->request->is(['patch', 'post', 'put'])) {
             $category = $this->Categories->patchEntity($category, $this->request->getData());
@@ -81,8 +81,8 @@ class CategoriesController extends AppController
             }
             $this->Flash->error(__('The category could not be saved. Please, try again.'));
         }
-        $blogPosts = $this->Categories->BlogPosts->find('list', ['limit' => 200])->all();
-        $this->set(compact('category', 'blogPosts'));
+        $products = $this->Categories->Products->find('list', ['limit' => 200])->all();
+        $this->set(compact('category', 'products'));
     }
 
     /**
