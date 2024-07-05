@@ -56,8 +56,8 @@ class CategoriesController extends AppController
             }
             $this->Flash->error(__('The category could not be saved. Please, try again.'));
         }
-        $blogPosts = $this->Categories->BlogPosts->find('list', ['limit' => 200])->all();
-        $this->set(compact('category', 'blogPosts'));
+        $products = $this->Categories->Products->find('list', ['limit' => 200])->all();
+        $this->set(compact('category', 'products'));
     }
 
     /**
